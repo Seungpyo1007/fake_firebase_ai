@@ -14,7 +14,7 @@ jobs:
       fail-fast: false
       matrix:
         # Lowest supported release from pubspec.yaml, plus the current stable.
-        flutter: ['3.32.0', stable]
+        flutter: ['3.35.0', stable]
     steps:
       - uses: actions/checkout@v4
       - uses: subosito/flutter-action@v2
@@ -25,7 +25,7 @@ jobs:
       - if: matrix.flutter == 'stable'
         run: dart format --output=none --set-exit-if-changed .
       - run: flutter analyze --fatal-infos
-      - run: flutter test test example
+      - run: flutter test test example/fake_firebase_ai_example.dart
 
   package:
     name: Package score
