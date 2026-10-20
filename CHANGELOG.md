@@ -1,3 +1,7 @@
+## 0.1.1
+
+* Support `firebase_ai` 5.x and `firebase_core` 5.x alongside 4.x.
+
 ## 0.1.0
 
 * Initial release.
