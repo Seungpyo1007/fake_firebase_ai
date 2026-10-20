@@ -8,7 +8,7 @@ A fake for [`firebase_ai`](https://pub.dev/packages/firebase_ai) (Firebase AI Lo
 
 ```yaml
 dev_dependencies:
-  fake_firebase_ai: ^0.1.0
+  fake_firebase_ai: ^0.1.1
 ```
 
 ## Usage

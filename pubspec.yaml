@@ -1,6 +1,6 @@
 name: fake_firebase_ai
 description: Fake for Firebase AI Logic (firebase_ai). Unit test Gemini calls, streaming, chat and function calling without network or API keys.
-version: 0.1.0
+version: 0.1.1
 repository: https://github.com/Seungpyo1007/fake_firebase_ai
 issue_tracker: https://github.com/Seungpyo1007/fake_firebase_ai/issues
 topics:
@@ -15,8 +15,8 @@ environment:
   flutter: ">=3.35.0"
 
 dependencies:
-  firebase_ai: ^4.0.0
-  firebase_core: ^4.15.0
+  firebase_ai: ">=4.0.0 <6.0.0"
+  firebase_core: ">=4.15.0 <6.0.0"
   firebase_core_platform_interface: ^8.1.1
   flutter:
     sdk: flutter
